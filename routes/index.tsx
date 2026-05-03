@@ -9,9 +9,12 @@ export default define.page(function Home(ctx) {
 
   return (
     <>
-      <h1 class="flex h-screen items-center justify-center text-2xl font-bold">Under Construction</h1>
+      <div class="bg-[url(/img/undraw_under-construction_c2y1.png)] bg-cover">
+        <h1 class="flex h-screen items-center justify-center text-2xl font-bold">
+          Site Under Construction
+        </h1>
+      </div>
     </>
-    
     // <div class="grid-container">
     //   <header class="grid-header">
     //     <Hero />

@@ -9,7 +9,9 @@ export default define.page(function App({ Component }) {
         <title>Sidereal 365</title>
       </head>
       <body class="container mx-auto h-screen">
-        <Component />
+        <div>
+          <Component />
+        </div>
       </body>
     </html>
   );
