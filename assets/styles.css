@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chewy&family=Pacifico&family=Shadows+Into+Light&display=swap");
+
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: all;
+}
+
+.font-paci {
+  font-family: "Pacifico";
+}
+
+.font-chewy {
+  font-family: "Chewy";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {}
+
+body {}
+
+a {
+  cursor: pointer;
+}
+
+ul li {
+  list-style: none;
+}
+
+.top-menu {
+  background-color: var(--pico-background-color);
+  color: var(--pico-color);
+  padding: 0;
+  padding-right: 20px;
+}
+
+.menu-title {}
+
+.menu-items li {
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url("/img/server-room.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr 4fr 1fr;
+  grid-template-areas:
+    "one two three four five"
+    "six seven eight nine ten";
+  grid-template-rows: 25vh;
+}
+
+.hero-first-block {
+  grid-area: two;
+}
+
+.hero-first-block h3 {
+  color: paleturquoise;
+}
+
+.hero-first-block p {
+  color: orange;
+}
+
+.hero-second-block {
+  grid-area: nine;
+}
+
+.hero-second-block a {
+  color: aqua;
+}
+
+.hero-second-block p {
+  color: white;
+}
+
+.btn-spacing-right {
+  margin-right: 20px;
+}
+
+#map {
+  height: 500px;
+}
+
+.hero-heading {
+  padding-top: 10%;
+}
