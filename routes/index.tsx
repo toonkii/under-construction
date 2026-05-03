@@ -9,7 +9,7 @@ export default define.page(function Home(ctx) {
 
   return (
     <>
-      <h1 class="mx-auto text-2xl font-bold sm:truncate sm:text-3xl sm:tracking-tight">Under Construction</h1>
+      <h1 class="flex h-screen items-center justify-center text-2xl font-bold">Under Construction</h1>
     </>
     
     // <div class="grid-container">
