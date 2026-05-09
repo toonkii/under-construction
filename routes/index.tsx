@@ -9,8 +9,9 @@ export default define.page(function Home(ctx) {
 
   return (
     <>
-      <div class="bg-[url(/img/undraw_under-construction_c2y1.png)] bg-cover">
-        <h1 class="flex h-screen items-center justify-center text-2xl font-bold">
+      <div class="bg-[url(/img/undraw_under-construction_hdrn.png)] bg-center bg-cover">
+      {/* <div class="bg-[url(/img/undraw_under-construction_c2y1.png)] bg-cover"> */}
+        <h1 class="flex h-screen items-start justify-end text-2xl font-bold p-18">
           Site Under Construction
         </h1>
       </div>
